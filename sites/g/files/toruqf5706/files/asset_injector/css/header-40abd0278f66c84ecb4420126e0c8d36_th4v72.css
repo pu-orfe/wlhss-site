@@ -1,0 +1,29 @@
+#header {
+  background: radial-gradient(circle,#fbf853 0%,#eca53b 100%);
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .menu-logo--inline .site-branding .site-info {
+    max-width: calc(25% - 10px);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .menu-logo--inline .site-branding .site-info {
+    text-align:center;
+  }
+
+}
+
+/* Center logo */
+
+@media (max-width: 62rem) {
+  .site-branding .site-logo img {
+      max-width: initial;
+  }
+  #header .site-branding .row {
+    align-items: center;
+    flex-flow: column;
+    }
+}
